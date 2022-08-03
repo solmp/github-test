@@ -6,7 +6,7 @@ set -e
 
 echo "start"
 echo $BaiduPush_TOKEN
-
+echo "BaiduPush_TOKEN:"
 echo ${{BaiduPush_TOKEN}}
 
 echo ${{GITHUB_TOKEN}}
