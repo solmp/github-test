@@ -1,0 +1,19 @@
+{
+  "name": "github-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "baiduPush": "bash baiduPush.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solmp/github-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solmp/github-test/issues"
+  },
+  "homepage": "https://github.com/solmp/github-test#readme"
+}
