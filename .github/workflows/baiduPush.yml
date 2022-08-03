@@ -14,8 +14,10 @@ env: # 设置环境变量
 
 on:
   push:
-  schedule:
-    - cron: '*/5 * * * *' # 每5分钟一次，测试用
+    branches:
+      - main
+  # schedule:
+  #   - cron: '*/5 * * * *' # 每5分钟一次，测试用
 
 jobs:
   bot:
