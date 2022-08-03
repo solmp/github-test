@@ -7,6 +7,10 @@ name: baiduPush
 #   push:
 #   schedule:
 #     - cron: '0 23 * * *' # https://help.github.com/en/actions/automating-your-workflow-with-github-actions/events-that-trigger-workflows#scheduled-events-schedule
+env: # 设置环境变量
+  TZ: Asia/Shanghai # 时区（设置时区可使页面中的`最近更新时间`使用时区时间）
+  SERVER_IP: '123456789' # 远程服务器IP
+
 
 on:
   schedule:
