@@ -8,6 +8,8 @@ echo "start"
 
 echo "BaiduPush_TOKEN:"
 echo ${BaiduPush_TOKEN}
+echo $GITHUB_TOKEN
+echo ${secrets.BaiduPush_TOKEN}
 
 echo ${GITHUB_TOKEN}
 
